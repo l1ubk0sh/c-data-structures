@@ -18,12 +18,24 @@
     <ClInclude Include="list.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="dynarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="list.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="test_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dynarray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="test_dynarray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

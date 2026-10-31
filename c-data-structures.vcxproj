@@ -143,10 +143,14 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="dynarray.h" />
     <ClInclude Include="list.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="dynarray.c" />
     <ClCompile Include="list.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="test_dynarray.c" />
     <ClCompile Include="test_list.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

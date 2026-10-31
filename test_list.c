@@ -2,7 +2,7 @@
 #include <assert.h>
 #include <stdio.h>
 
-int main(void) {
+void test_list(void) {
     List l;
     list_init(&l);
 
@@ -25,6 +25,6 @@ int main(void) {
     assert(l.size == 0 && l.head == NULL);
     assert(list_pop_front(&l, &v) == -1);
 
-    puts("All tests passed");
-    return 0;
+    puts("list tests passed");;
+   
 }
